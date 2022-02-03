@@ -15,6 +15,13 @@
 </div>
 
 <script>
+  
+var person = Array("song1", "song2", "song3", "song4", "song5", "song6");
+
+function randomPerson() {
+  var randomPerson = person[Math.floor(Math.random() * person.length)];
+  document.getElementById('randomPerson').value = randomPerson;
+}
 
 var place = Array("song1", "song2", "song3", "song4", "song5", "song6");
 
