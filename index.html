@@ -8,14 +8,19 @@
   <button type="randomPerson" onclick="randomPerson()">Random Person</button>
   <input name="randomPerson" id="randomPerson">
 </div>
+  
+<div>
+  <button type="randomPlace" onclick="randomPlace()">Random Place</button>
+  <input name="randomPlace" id="randomPlace">
+</div>
 
 <script>
 
-var person = Array("song1", "song2", "song3", "song4", "song5", "song6");
+var place = Array("song1", "song2", "song3", "song4", "song5", "song6");
 
-function randomPerson() {
-  var randomPerson = person[Math.floor(Math.random() * person.length)];
-  document.getElementById('randomPerson').value = randomPerson;
+function randomPlace() {
+  var randomPlace = place[Math.floor(Math.random() * place.length)];
+  document.getElementById('randomPlace').value = randomPlace;
 }
 
 </script>
