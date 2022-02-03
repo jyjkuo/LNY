@@ -1,4 +1,2 @@
-functionmyfunction()   
- {   
-document.write("welcome to Javatpoint");  
-         }  
+const myHeading = document.querySelector('h1');
+myHeading.textContent = 'Hello world!';
